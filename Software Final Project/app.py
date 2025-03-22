@@ -4,7 +4,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:QiyiDzYtk3XnH0bQ@nimbly-vaulting-courser.data-1.use1.tembo.io:5432/postgres?sslmode=prefer'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:"Check the WhatsApp group"-vaulting-courser.data-1.use1.tembo.io:5432/postgres?sslmode=prefer'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
