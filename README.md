@@ -19,14 +19,14 @@ Now if you get a restricted access error, you have to open powershell as adminis
 Get-ExecutionPolicy # To see your current restriction
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass # to bypass if it is restricted
 ```
-#### After activation, your prompt should change to show (venv) at the beginning.
 #### Then re-run the codes above.
+#### After activation, your prompt should change to show (venv) at the beginning.
 #### Do not leave the powershell window 
 
 ## How to run the app
 
-Okay, so now, in the same PowerShell window you have open, redirect the location of the app.py
-Run this:
+#### Okay, so now, in the same PowerShell window you have open, redirect the location of the app.py.
+#### Run this:
 ```bash
 pip install Flask psycopg2-binary
 python app.py
